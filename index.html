@@ -2,10 +2,20 @@
 <html>
   <head>
     <script>
-      b = Math.floor(Math.random() * 10) + 1;
-      b = Math.floor(Math.random() * 10) + 1;
+      function generate()
+      {
+        num = Math.floor(Math.random() * 10) + 1;
+        if (num == 1)
+        {
+          window.open("1.html")
+        }
+        else
+        {
+          window.alert("Error")
+        }
+      }
     </script>
-    <title>Random quote generator</title>
+    <title>Random Quote Generator</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body id="top">
@@ -14,7 +24,7 @@
     <p id="text">Click the button below to generate a random quote.</p>
     <br>
     <div class="button-container">
-      <button onclick="window.open('random.html')">Generate random quote</button>
+      <button onclick=generate()>Generate random quote</button>
     </div>
   </body>
 </html>
