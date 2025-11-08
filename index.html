@@ -7,10 +7,10 @@
   <body>
     <h1>Random quote generator</h1>
     <hr>
-    <p>CLick the button below to generate a random quote.</p>
+    <p id="text">CLick the button below to generate a random quote.</p>
     <br>
     <div class="button-container">
-      <button>Generate random quote</button>
+      <button onclick="document.getElementById("text").innerHTML = "Random quote">Generate random quote</button>
     </div>
   </body>
 </html>
