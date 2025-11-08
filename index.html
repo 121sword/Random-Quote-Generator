@@ -4,16 +4,31 @@
     <script>
       let a = 1
       let b = "b"
-      while(true)
+      let c = 1
+      window.alert("Welcome to the random quote generator website")
+      while (true)
       {
-        a = Math.floor(Math.random() * 10) + 1;
-        if (a == 1)
+        while(c == 1)
         {
-          b = "quote  1"
+          a = Math.floor(Math.random() * 10) + 1;
+          if (a == 1)
+          {
+            b = "quote  1"
+          }
+          else
+          {
+            b= "error"
+          }
+          c = 2
         }
-        else
+        while (c == 2)
         {
-          b= "error"
+          console.log("paused")
+          console.log("paused")
+          console.log("paused")
+          console.log("paused")
+          console.log("paused")
+          c = 1
         }
       }
     </script>
