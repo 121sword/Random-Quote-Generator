@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      let a = 1
+      let b = "b"
+      while(true)
+      {
+        a = Math.floor(Math.random() * 10) + 1;
+        if (a == 1)
+        {
+          b = "quote  1"
+        }
+        else
+        {
+          b= "error"
+        }
+      }
+    </script>
     <title>Random quote generator</title>
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -10,7 +26,7 @@
     <p id="text">CLick the button below to generate a random quote.</p>
     <br>
     <div class="button-container">
-      <button onclick="document.getElementById('text').innerHTML='Random quote'">Generate random quote</button>
+      <button onclick="document.getElementById('text').innerHTML=b">Generate random quote</button>
     </div>
   </body>
 </html>
