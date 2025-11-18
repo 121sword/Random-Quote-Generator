@@ -1,4 +1,4 @@
-function generate()
+function generateQuote()
 {
   let max = 2;
   let quote;
