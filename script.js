@@ -1,13 +1,22 @@
 function generate()
 {
-  num = Math.floor(Math.random() * 10) + 1;
-  if (num == 1)
+  let max = 2;
+  let quote;
+  let quoteNum;
+  quoteNum = Math.floor(Math.random() * max) + 1;
+  console.log("Quote number:"+quoteNum);
+  switch (quoteNum)
   {
-    window.open("1.html")
+    case 1:
+      quote = "Quote 1";
+      break;
+    case 2:
+      quote = "Quote 2"
+      break;
+    default:
+      quote = "An error has occurred."
+      break;
   }
-  else
-  {
-    window.alert("Error")
-  }
+  document.getElementById("text").innerHTML(fact)
 }
 console.log("Website loaded")
