@@ -17,6 +17,6 @@ function generate()
       quote = "An error has occurred."
       break;
   }
-  document.getElementById("text").innerHTML(fact)
+  document.getElementById("text").innerHTML = fact;
 }
 console.log("Website loaded")
