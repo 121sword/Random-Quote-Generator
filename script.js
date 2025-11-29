@@ -1,7 +1,7 @@
-window.addEventListener("load", function())
+window.addEventListener("load", function()
 {
   document.getElementById("button").addEventListener("click", generateQuote)
-}
+})
 function generateQuote()
 {
   let max = 13;
