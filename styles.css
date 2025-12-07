@@ -9,3 +9,7 @@ h1, p
   justify-content: center;
   width: 100%;
 }
+.text-container
+{
+  padding: 5px;
+}
