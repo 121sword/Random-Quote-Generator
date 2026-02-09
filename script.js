@@ -13,7 +13,7 @@ function generateQuote()
   switch (quoteNum)
   {
     case 1:
-      quote = "Life is about making an impact, not making an income. - sKevin Kruse";
+      quote = "Life is about making an impact, not making an income. - Kevin Kruse";
       break;
     case 2:
       quote = "Whatever the mind of man can conceive and believe, it can achieve. – Napoleon Hill"
